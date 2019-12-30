@@ -10,7 +10,6 @@ def join_ingredients(src)
       element_index += 1
     end
     row_index += 1
-    puts string_array
   end
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
   #
@@ -19,6 +18,7 @@ def join_ingredients(src)
   #
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
+    puts string_array
 end
 
 def find_greater_pair(src)
