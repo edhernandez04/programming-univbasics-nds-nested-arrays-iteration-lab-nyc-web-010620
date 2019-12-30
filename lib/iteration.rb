@@ -3,7 +3,7 @@ def join_ingredients(src)
   while x < array_1.count do
     y = 0
     while y < array_1[x].count do
-      puts    "I love "+array_1[y]" and "+array_1[y+1]" on my pizza"
+      puts    "I love #{array_1[y]} and #{array_1[y+1]} on my pizza"
       y += 1
     end
   end
