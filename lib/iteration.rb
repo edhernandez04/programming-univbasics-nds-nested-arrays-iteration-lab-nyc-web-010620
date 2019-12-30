@@ -3,11 +3,11 @@ def join_ingredients(src)
   while x < array_1.count do
     y = 0
     while y < array_1[x].count do
+      puts    "I love "array_1[0]" and "array_1[1]" on my pizza"
+      puts    "I love "array_1[2]" and "array_1[3]" on my pizza"
+      puts    "I love "array_1[4]" and "array_1[5]" on my pizza"
       y += 1
     end
-    puts    "I love "array_1[0]" and "array_1[1]" on my pizza",
-    puts    "I love "array_1[2]" and "array_1[3]" on my pizza",
-    puts    "I love "array_1[4]" and "array_1[5]" on my pizza"
   end
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
   #
