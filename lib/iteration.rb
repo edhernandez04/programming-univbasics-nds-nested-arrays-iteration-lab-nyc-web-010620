@@ -1,11 +1,12 @@
 def join_ingredients(src)
   row_index = 0
-  while row_index < array.count do
+  while row_index < array_1.count do
     element_index = 0
-    while element_index < array[row_index].count do
-      puts    "I love #{array[element_index]} "
+    while element_index < array_1[row_index].count do
+      string_array = []
+      string_array << "I love #{array_1[row_index][element_index]}"
       element_index += 1
-      puts "and #{array[element_index]} on my pizza"
+      "and #{array_1[row_index][element_index]}"
       element_index += 1
     end
   end
