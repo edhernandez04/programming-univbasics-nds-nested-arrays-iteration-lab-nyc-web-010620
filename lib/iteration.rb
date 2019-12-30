@@ -9,6 +9,7 @@ def join_ingredients(src)
       "and #{array_1[row_index][element_index]}"
       element_index += 1
     end
+    row_index += 1
     puts string_array
   end
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
