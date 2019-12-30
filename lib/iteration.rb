@@ -1,9 +1,9 @@
 def join_ingredients(src)
+  string_array = []
   row_index = 0
   while row_index < array_1.count do
     element_index = 0
     while element_index < array_1[row_index].count do
-      string_array = []
       string_array << "I love #{array_1[row_index][element_index]}"
       element_index += 1
       "and #{array_1[row_index][element_index]}"
